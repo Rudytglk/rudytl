@@ -1,0 +1,161 @@
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color:#323946;
+    --text-color: #fff;
+    --main-color:#16A085;
+}
+
+.u{
+    font-size: 5.6rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    animation: text 3s infinite linear;
+    cursor: pointer;
+    transition: .2s;
+}
+.u:hover{
+    animation-play-state: paused;
+    color: white;
+    scale: .9;
+}
+@keyframes text {
+    0%{
+        color: white;
+    }
+    50%{
+        color: var(--main-color);
+        transform: rotate(45deg);
+    }
+    100%{
+        color: white;
+    }
+}
+body{
+    background: #1f242d;
+}
+.box{
+    border: 2px solid #1f242d;
+    height: max-content;
+    padding: auto;
+    width: max-content;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+h2{
+    animation: hu 3s linear infinite   ;
+}
+@keyframes hu {
+    0%{
+        color: white;
+    }
+    50%{
+         color: var(--main-color);
+         transition: .3s;
+         text-shadow: var(--main-color) 1px 0 11px;
+    }
+    100%{
+        color: white;
+    }
+}
+h3{
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+
+/* h3:hover{
+    color: red;
+    text-shadow: red 1px 0 11px;
+    background-size: cover;
+} */
+h3 span{
+    font-size: large;
+}
+
+.text{
+    text-align: center;
+}
+
+.co{
+    margin-top: 10px;
+    border: #1f242d 2px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-width: 50px;
+    width: 500px;
+    margin: auto;
+}
+.co .lo{
+    text-align: center;
+    color: white;
+    font-family:monospace;
+    font-size: 1.5rem;
+    margin-top: -5%;
+    text-shadow: white 0 0 15px;
+}
+.co .ico{
+    text-align: center;
+    color: white;
+}
+.si{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: solid;
+    border: white solid 2px;
+    width: 50px;
+}
+.la{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:900px) {
+    .co{
+        width: 150px;
+        height: max-content;
+    }
+    .les{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+}
+.les{
+    display: flex;
+    margin-bottom: 160px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img{
+    height: 50px;
+}
+.footer{
+    background: #323946;
+    display:block; 
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    border-radius: 1rem;
+    justify-content: center;
+}
+h5{
+    animation: hei 1s linear;
+    text-align: center;
+    opacity: 0;
+}
+@keyframes hei {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+
+}
