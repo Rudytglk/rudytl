@@ -65,19 +65,19 @@ const textLoad = () => {
   }, 0);
 
   setTimeout(() => {
-    text.textContent = "Manusia Biasa";
+    text.textContent = "bercita-cita menjadi progamer";
   }, 2000);
 
   setTimeout(() => {
-    text.textContent = "Makan Nasi";
+    text.textContent = "adalah remaja 17 thn yg hobinya ngoding";
   }, 4000);
   
   setTimeout(() => {
-    text.textContent = "Kya Eluu";
+    text.textContent = "masih pemula dalam pemrogaman";
   }, 6000);
   
   setTimeout(() => {
-    text.textContent = "Apa lagi ya??";
+    text.textContent = "ingin tutor dong puh🥶";
   }, 8000);
 }
 textLoad();
